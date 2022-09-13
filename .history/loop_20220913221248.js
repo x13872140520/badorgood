@@ -1,5 +1,5 @@
 const orders = [500,30,99,15,223]
-'bad💩'
+'bad'
 const total = 0
 const withTax = []
 const highValue = []

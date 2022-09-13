@@ -1,5 +1,5 @@
 const orders = [500,30,99,15,223]
-'bad💩'
+'bad'
 const total = 0
 const withTax = []
 const highValue = []
@@ -16,7 +16,7 @@ for(var i = 0; i < orders.length;i++){
     }
 }
 
-'good✔️'
+'good'
 //Reduce
 const totals = orders.reduce((acc,cur)=> acc+cur)
 //Map

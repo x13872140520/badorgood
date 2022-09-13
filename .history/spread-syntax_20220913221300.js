@@ -1,7 +1,7 @@
 const pikachu = {name:'Pikachu'}
 const stas ={hp:40,attack:60,defense:45}
 
-'bad object code💩'
+'bad object code'
 pikachu['hp']=stats.hp
 pikachu['attack']=stats.attack
 pikachu['defense']=stats.defense
@@ -15,7 +15,7 @@ const nlv11= {...pikachu,hp:45}
 
 let pokemon =['Arbok','Raichu','Sandshrew']
 
-'bad💩'
+'bad'
 pokemon.push('Bulbasaur')
 pokemon.push('Metapod')
 pokemon.push('Weedle')

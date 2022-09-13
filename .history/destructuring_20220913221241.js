@@ -1,4 +1,4 @@
-'Bad💩'
+'Bad'
 function feed(animal){
     return `Feed ${animal.name} ${animal.meal} kilos of ${animal.diet}`
 }

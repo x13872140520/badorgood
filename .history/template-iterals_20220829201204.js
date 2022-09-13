@@ -4,10 +4,10 @@ const horse={
     skills:['run','jump'],
     age:'2'
 }
-'bad💩'
+'bad'
 let bio = horse.name +'is a '+ horse.size +'horse skilled in' +horse.skills.join('&')
 
-'good✔️'
+'good'
 const { name, size, skills, age} = horse
 bio = `${name} is a ${size} skilled in ${skills.join('&')}`
 console.log(bio)

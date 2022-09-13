@@ -1,7 +1,7 @@
 const random = ()=>{
     return Promise.resolve(Math.random())
 }
-'bad promise code💩'
+'bad promise code'
 const sumRandomAsyncNums = () =>{
     let first 
     let second
@@ -19,7 +19,7 @@ const sumRandomAsyncNums = () =>{
         return first + second +third
     })
 }
-'good promise code✔️'
+'good promise code'
 const sumRandomAsyncNumsNew = async()=>{
     const first = await random()
     const second = await random()
